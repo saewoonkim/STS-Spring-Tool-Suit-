@@ -7,8 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-/*@ResponseStatus(HttpStatus.BAD_REQUEST) // 500-> 400
-*/
+//@ResponseStatus(HttpStatus.BAD_REQUEST) // 500-> 400
 class MyException extends RuntimeException{
 	MyException(String msg){
 		super(msg);

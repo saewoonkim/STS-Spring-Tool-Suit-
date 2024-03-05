@@ -6,8 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-//@ControllerAdvice
-@ControllerAdvice("com.dongsung.ch04")
+@ControllerAdvice
+//@ControllerAdvice("com.dongsung.ch04")
 public class GlobalCatcher {
 	@ExceptionHandler({NullPointerException.class, FileNotFoundException.class})
 	public String catcher2(Exception ex, Model m) {

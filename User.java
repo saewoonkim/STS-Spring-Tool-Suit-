@@ -62,7 +62,7 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", pwd=" + pwd + ", name=" + name + ", email=" + email + ", birth=" + birth + ", sns="
-				+ Arrays.toString(sns) + ", hobby="+Arrays.toString(hobby)+",]";
+				+ Arrays.toString(sns) + ", hobby="+Arrays.toString(hobby)+"]";
 	}
 	
 	
